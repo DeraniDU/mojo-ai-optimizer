@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+__mojocache__/
+data/*.csv
+results/*.txt
+.DS_Store
