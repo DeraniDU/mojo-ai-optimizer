@@ -48,4 +48,4 @@ def batch_predict_count_mojo(records: PythonObject) raises -> PythonObject:
         if score >= 0:
             pass_count += 1
 
-    return PythonObject(alloc=pass_count)
+    return PythonObject(pass_count)
